@@ -1,0 +1,51 @@
+{
+  "name": "Scuffed Guard",
+  "version": "2.0.2",
+  "description": "sus bot tbh",
+  "main": "sharder.js",
+  "scripts": {
+    "start": "node sharder.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon sharder.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shadowz"
+  },
+  "keywords": [
+    "discord.js-v14"
+  ],
+  "author": "Shadowz",
+  "license ": "GPL",
+  "bugs": "",
+  "homepage": "",
+  "dependencies": {
+    "@discordjs/rest": "^1.0.0",
+    "canvas": "^2.10.2",
+    "canvas-constructor": "^7.0.0",
+    "chalk": "^4.1.2",
+    "cheerio": "^1.0.0-rc.12",
+    "cors": "^2.8.5",
+    "delay": "^5.0.0",
+    "discord.js": "14.3.0",
+    "dotenv": "^10.0.0",
+    "erela.js": "github:MenuDocs/erela.js#build",
+    "erela.js-apple": "^1.2.6",
+    "erela.js-deezer": "^1.0.7",
+    "erela.js-facebook": "^1.0.4",
+    "erela.js-spotify": "^1.2.0",
+    "express": "^4.18.2",
+    "express-rate-limit": "^6.7.0",
+    "fetch": "^1.1.0",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "moment-duration-format": "^2.3.2",
+    "mongoose": "^6.0.12",
+    "ms": "^2.1.3",
+    "node-fetch": "^2.6.7",
+    "node-superfetch": "^0.2.3",
+    "superagent": "^8.0.0",
+    "systeminformation": "^5.9.13",
+    "wio.db": "^4.0.22"
+  }
+}
